@@ -19,10 +19,10 @@ node [shape=box, style="filled", color="black"] ;
 2 -> 8 ;
 9 [label="entropy = 0.0\nsamples = 3\nvalue = [0, 3]\nclass = play_yes", fillcolor="#399de5"] ;
 8 -> 9 ;
-10 [label="temperature <= 1.0\nentropy = 1.0\nsamples = 2\nvalue = [1, 1]\nclass = play_no", fillcolor="#ffffff"] ;
+10 [label="outlook <= 1.5\nentropy = 1.0\nsamples = 2\nvalue = [1, 1]\nclass = play_no", fillcolor="#ffffff"] ;
 8 -> 10 ;
-11 [label="entropy = 0.0\nsamples = 1\nvalue = [1, 0]\nclass = play_no", fillcolor="#e58139"] ;
+11 [label="entropy = 0.0\nsamples = 1\nvalue = [0, 1]\nclass = play_yes", fillcolor="#399de5"] ;
 10 -> 11 ;
-12 [label="entropy = 0.0\nsamples = 1\nvalue = [0, 1]\nclass = play_yes", fillcolor="#399de5"] ;
+12 [label="entropy = 0.0\nsamples = 1\nvalue = [1, 0]\nclass = play_no", fillcolor="#e58139"] ;
 10 -> 12 ;
 }
